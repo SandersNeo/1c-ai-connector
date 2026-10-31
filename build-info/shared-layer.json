@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
   "source_versions": {
-    "product": "1.8.9",
-    "shared_tests": "1.8.9"
+    "product": "1.9.0",
+    "shared_tests": "1.9.0"
   },
   "comparison": "Canonical bytes exact; examiner text permits only UTF-8 BOM and line endings",
   "product": {
     "canonical_files": {
       "Configuration/Configuration.mdo": {
-        "sha256": "bea9b64ddad87117aa9307689b84c990ec03ab9be3ef116a7b2c9b848f6ac286",
-        "normalized_sha256": "8c02e2ae68554c03519b59cc1be8e55977a33abe9e6604a098fadddb6bcec946"
+        "sha256": "009c2a24b694c2a5544ad28c45e8c1cb31ff47cfc07a2cb2c2c6a9522617449b",
+        "normalized_sha256": "a5a0a9a7ad4de7248c0d7a821ad861ae006bafce07d879743ecb4becf399adff"
       },
       "Configuration/SessionModule.bsl": {
         "sha256": "7892fcc980ee2e8b9fb1a7e964e00d542c7b26b6ae8533cd3f3514b5c515b5e2",
@@ -151,9 +151,17 @@
         "sha256": "0ae5d36560b4fc7006230a75961759f616e41d990ab6efed4143de01ae7c3db5",
         "normalized_sha256": "2b2ff7590e3842722e446fd36a9becefffc20f3c8af83bfba995b5544a96039c"
       },
+      "InformationRegisters/КИИ_ДиалогиЧата/КИИ_ДиалогиЧата.mdo": {
+        "sha256": "6fdc7ee36f684ceb7b133f1c1de98cdd50ba186dcbf662e3b4ce6ee64c589532",
+        "normalized_sha256": "08510cf74135c97f09cb9ea4adfc5a1057c9aa23867a5a259cc9f79c72b91322"
+      },
       "InformationRegisters/КИИ_ЖурналКонтроляПерсональныхДанных/КИИ_ЖурналКонтроляПерсональныхДанных.mdo": {
         "sha256": "81ab35421a4be3bdf44255dc1cffab8c9c824ea01b6c089fb8c934811da1290c",
         "normalized_sha256": "4e91d5f54ab1b977ef91ddeb16a204f6293fa2745322a99b348c90fc313de965"
+      },
+      "InformationRegisters/КИИ_ЗапросыЧата/КИИ_ЗапросыЧата.mdo": {
+        "sha256": "02b7004f8ebff1e610349b8050069dcc2a1f201167c0ab5f31b6438df27b21a2",
+        "normalized_sha256": "60cb34a99278a87f9297813c34cd5d08c875ae023dbfe21dae3f0530dda63a0e"
       },
       "InformationRegisters/КИИ_ИсполнителиОчередиQdrant/КИИ_ИсполнителиОчередиQdrant.mdo": {
         "sha256": "e80e0e05ec22fbc57b070ee5949d9b40179b293f0a51c421a115a3fca792b8c2",
@@ -170,6 +178,10 @@
       "InformationRegisters/КИИ_ЛогЗапросовИИ/КИИ_ЛогЗапросовИИ.mdo": {
         "sha256": "010d851be4568c90eb92053d2a6d9325c803e1c6f60a3bab2d97f4e49dd1f651",
         "normalized_sha256": "413c7f2ff367db3c31e4734125a3f343449de5a0c389c39661410836eb4447dc"
+      },
+      "InformationRegisters/КИИ_МатериалыЧата/КИИ_МатериалыЧата.mdo": {
+        "sha256": "7cc4a5772cd4df78530eb4a36ea894bff3da7b20a4bbc6fcf0671a65b276e308",
+        "normalized_sha256": "9b7d91493336fb81484cacac9238b3276bb4ad747fe82940e82d79ddb5ebe3ff"
       },
       "InformationRegisters/КИИ_МониторингОшибокЖурнал/ManagerModule.bsl": {
         "sha256": "33111a7e9ec5f81628d78fc5f69c4233e0a3396a7059d3e0d62840c67c454143",
@@ -214,6 +226,10 @@
       "InformationRegisters/КИИ_СерверMCPОграниченияВызовов/КИИ_СерверMCPОграниченияВызовов.mdo": {
         "sha256": "bdebf2afaeadd0cf4fb822ce8c97837dfa7acc6bad10dc68b9a08e885147b264",
         "normalized_sha256": "11ee7d7247eba815636207a745b7a034907779121f32dae9de3738832f7787e1"
+      },
+      "InformationRegisters/КИИ_СообщенияЧата/КИИ_СообщенияЧата.mdo": {
+        "sha256": "4a618a13bdfe8a3b9289ec5dc475ae52e08462b1685b5b0f3e067449e378a70e",
+        "normalized_sha256": "be4dddf1fa336912587e74dbb963c467fd7046cf2c0ac1a1f4a0a585656178ef"
       },
       "InformationRegisters/КИИ_ЭмбеддингиВерсии/КИИ_ЭмбеддингиВерсии.mdo": {
         "sha256": "8a15cb87494f0326302515b2c53b0a32e87115725c2a0ce4bd863ff235ebb4ee",
@@ -364,8 +380,8 @@
         "normalized_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "DataProcessors/КИИ_ТестИИ/КИИ_ТестИИ.mdo": {
-        "sha256": "7b8ad5dc696221ec8c8f93e1edcf23005d3d1d90ca7ce76ec7ec5e812dbd7541",
-        "normalized_sha256": "4cb5fb71cb8754bfefb169a9e76ce5a2b007f4fd318c6ce37c13c8dee40a5e31"
+        "sha256": "78fa2bf3eb725837f74cc03e323b1e504514bcb7e2314e4ab2a59f427955a253",
+        "normalized_sha256": "53f8f62276efead054ce98d80874dab0df5abb675638725133eef853cbf63a5f"
       },
       "DataProcessors/КИИ_ТестМаркдаунПарсера/КИИ_ТестМаркдаунПарсера.mdo": {
         "sha256": "ace8204db2bcdd34af1c474c44f6c28feffd558727d8af9653b3a6fd79be64bc",
@@ -395,13 +411,21 @@
         "sha256": "e22a9a8a95c278770088af23d4bbc201aa4de3fa18bbd1211e86f0997dba96b6",
         "normalized_sha256": "b777cec63ac8f9b437b2fe9a0a9aaf348db6aba764edff07a36c23c2e7f25b22"
       },
+      "DataProcessors/КИИ_ТестИИ/Forms/Диалоги/Form.form": {
+        "sha256": "a2c55a7da4a60dc92fe521a9aa905f9a7918c3272f17c4bc588601bc681da177",
+        "normalized_sha256": "862856d6f97358f70ee5dea13202f97fe754795f09ec19fdff823dc185d45457"
+      },
+      "DataProcessors/КИИ_ТестИИ/Forms/Диалоги/Module.bsl": {
+        "sha256": "f6c53a028bd43d729846803186181868b0c76e8fb8a054d957b1144433b2670d",
+        "normalized_sha256": "f6c53a028bd43d729846803186181868b0c76e8fb8a054d957b1144433b2670d"
+      },
       "DataProcessors/КИИ_ТестИИ/Forms/Форма/Form.form": {
-        "sha256": "060e7a2a4b21301fe49685aaf279474c891ebae75a227f9a5f09b6231e4dd19a",
-        "normalized_sha256": "10db905ac0925774162ba7a0be0b7ac1696642bb97ab9a2f8d6470a92b2c6500"
+        "sha256": "64203513a2e29e63fe6563ffd52ddce6fb1d1b5d30c3bb3744058222a220cdbf",
+        "normalized_sha256": "dee9084bc50bc52cf6d634babc67300c1a6dad39a490e3ca7eccb2f450318012"
       },
       "DataProcessors/КИИ_ТестИИ/Forms/Форма/Module.bsl": {
-        "sha256": "74f9fcd2a401cc467866f630056c17b556def8c4489c8f7fdce01099a6cb8479",
-        "normalized_sha256": "74f9fcd2a401cc467866f630056c17b556def8c4489c8f7fdce01099a6cb8479"
+        "sha256": "1659f0384f29bc27d3d49da83be2dcd85dabe47018c5469021fb580e287cff68",
+        "normalized_sha256": "1659f0384f29bc27d3d49da83be2dcd85dabe47018c5469021fb580e287cff68"
       },
       "DataProcessors/КИИ_ТестAPIГенераторДиаграмм/Forms/Форма/Form.form": {
         "sha256": "a49e2f7519bef5780252b4b46ffa268361d58dbe93fa3d21a7e949f77ce132e7",
@@ -420,12 +444,12 @@
         "normalized_sha256": "52319117b4d9d373fa79fa7ecd3214f670a22c7939a4e709715f12a4503071f4"
       },
       "DataProcessors/КИИ_ПроверкаПоискаЗнаний/Forms/Форма/Form.form": {
-        "sha256": "642f48af441e75cbd5a1683ae92539b91d1910481165b69a5f471dcc6a9cc5bc",
-        "normalized_sha256": "058b6951215f3eff34d8c2ca1db57e21dcd6e7361e2f9ddf1dbad2128eeaca34"
+        "sha256": "9ad216ed1f9a64315b1833c85c3990ad7e7fad4a37278ae87b5de85ed6331751",
+        "normalized_sha256": "73f5c3a36ae04e173d1d6929198ed9fcf3355ee44e32e9b98bffe218d94ba9ef"
       },
       "DataProcessors/КИИ_ПроверкаПоискаЗнаний/Forms/Форма/Module.bsl": {
-        "sha256": "ce135283ecb8620a71c86ba9bcba6e48858e9109bbcb1ab2daabbbfa26150ec9",
-        "normalized_sha256": "ce135283ecb8620a71c86ba9bcba6e48858e9109bbcb1ab2daabbbfa26150ec9"
+        "sha256": "a28eb304b4e9c8239d8576b3440915d66db13f4e53f3aaee9dc77ee48f0d5275",
+        "normalized_sha256": "a28eb304b4e9c8239d8576b3440915d66db13f4e53f3aaee9dc77ee48f0d5275"
       },
       "DataProcessors/КИИ_НастройкиМониторингаОшибок/Forms/Форма/Form.form": {
         "sha256": "9242d70a5d70b0e25b0af2e5b9244d47a1c86b7eccfde0efc63a3ff5b41fa3e3",
@@ -636,8 +660,8 @@
         "normalized_sha256": "08f4c883873e10de70cedbccec42dc8b4e94a075c0c32b4a92b01522575af47d"
       },
       "CommonModules/КИИ_RAGQdrant/Module.bsl": {
-        "sha256": "c59ba084256975b4e57d990049662a05e5ca374bcb6b94f0c8bc53e8b166175d",
-        "normalized_sha256": "c59ba084256975b4e57d990049662a05e5ca374bcb6b94f0c8bc53e8b166175d"
+        "sha256": "a74ad4515eb3593593b238d33888d0d9c0caf743c4e9cf00f65f4c15f5fdca47",
+        "normalized_sha256": "a74ad4515eb3593593b238d33888d0d9c0caf743c4e9cf00f65f4c15f5fdca47"
       },
       "CommonModules/КИИ_RAGQdrant/КИИ_RAGQdrant.mdo": {
         "sha256": "a6d1a2f4c2e3fae751d5efb4c0b95ebf06470581105fd1e64060d8e6c03f774f",
@@ -660,8 +684,8 @@
         "normalized_sha256": "9b6b3ec554520dd3d1f62c45acaf257f1e3a8df3bf3b3e07df6e664fc3fe2e64"
       },
       "CommonModules/КИИ_АгентАнализа/Module.bsl": {
-        "sha256": "9c71c9fce4f72314e6514ccd2da5c0baf7626019e8780ce12a4253d491d89dc6",
-        "normalized_sha256": "9c71c9fce4f72314e6514ccd2da5c0baf7626019e8780ce12a4253d491d89dc6"
+        "sha256": "ae135c776e588c5f6c1e3c30b2dbcffddfb5f7bb1cdab2798486b6782fd3e871",
+        "normalized_sha256": "ae135c776e588c5f6c1e3c30b2dbcffddfb5f7bb1cdab2798486b6782fd3e871"
       },
       "CommonModules/КИИ_АгентАнализа/КИИ_АгентАнализа.mdo": {
         "sha256": "7401fd193dc54b6cefc0fba1dff44b735da2af20b8a12a7028bcc4e21535fca6",
@@ -764,16 +788,16 @@
         "normalized_sha256": "0f61d826c678307af32bbb6ac4df260c0fa54e9a4292fdb23ba5f35060e96695"
       },
       "CommonModules/КИИ_КонтекстДиалога/Module.bsl": {
-        "sha256": "8a13d39f8faefd7852e46f74a7332f30ffaeec6015eb5ab9ce6251589aa41b67",
-        "normalized_sha256": "8a13d39f8faefd7852e46f74a7332f30ffaeec6015eb5ab9ce6251589aa41b67"
+        "sha256": "3e179dcd6d217738c71f6693919a246fc92f2246ca730f307177aab09988502e",
+        "normalized_sha256": "3e179dcd6d217738c71f6693919a246fc92f2246ca730f307177aab09988502e"
       },
       "CommonModules/КИИ_КонтекстДиалога/КИИ_КонтекстДиалога.mdo": {
         "sha256": "f87148e6127ea4409072fbc8fc2940cb2f6a99c91938c220c870b64cc7fe697e",
         "normalized_sha256": "f7c6d2ad00b7b959a0ea717057c4882fa11a7c51c06d0c18ecc22bea53cd87f1"
       },
       "CommonModules/КИИ_КонтрольПерсональныхДанных/Module.bsl": {
-        "sha256": "d787198c1bec23afa2c1157a025de540712f7f8a94d91184c876045de5212762",
-        "normalized_sha256": "d787198c1bec23afa2c1157a025de540712f7f8a94d91184c876045de5212762"
+        "sha256": "c64dcd6c5043976e4f5d264792524089f1b038900516d0b7c18772e4cf86e4e2",
+        "normalized_sha256": "c64dcd6c5043976e4f5d264792524089f1b038900516d0b7c18772e4cf86e4e2"
       },
       "CommonModules/КИИ_КонтрольПерсональныхДанных/КИИ_КонтрольПерсональныхДанных.mdo": {
         "sha256": "4017d97deed35eb14179d9248d63954476146f145ef132454852cb3853a209cc",
@@ -908,8 +932,8 @@
         "normalized_sha256": "07c7e225494f6e626877cc78ff24a634ee4b540be9199758b342efc51c806164"
       },
       "CommonModules/КИИ_СерверMCPДиспетчер/Module.bsl": {
-        "sha256": "41036ff427f85e1187eb5b63d1e33afbd037c1556bbc3a7d019a66633a0c9961",
-        "normalized_sha256": "41036ff427f85e1187eb5b63d1e33afbd037c1556bbc3a7d019a66633a0c9961"
+        "sha256": "603aa228bad550c0b8280e588de1e30114595ee12ea193948e0e9e99171e3d69",
+        "normalized_sha256": "603aa228bad550c0b8280e588de1e30114595ee12ea193948e0e9e99171e3d69"
       },
       "CommonModules/КИИ_СерверMCPДиспетчер/КИИ_СерверMCPДиспетчер.mdo": {
         "sha256": "a0108cf2a85edeac2b99e7e98833a4f6b89d9eef26806015d0b462ce08c60faf",
@@ -956,8 +980,8 @@
         "normalized_sha256": "3434a8906ce26f0811ab8bcede2a6b3f2451eba246b73f6fb656aa45a68c9453"
       },
       "CommonModules/КИИ_СерверMCPИнструментСтруктураОбъекта/Module.bsl": {
-        "sha256": "b4a30579f74d8f102b333b2ddeca78d0d8537ea740fd49c9f629abe488edbdde",
-        "normalized_sha256": "e4d070bc95f903f1629df50f9bf23201dcaa6b698786dd1dd69de15eb251bbcc"
+        "sha256": "5e64cbf1dc6afb17ec2aa9ade473679e481a54e325e1c0128d54a094587d52fe",
+        "normalized_sha256": "9628667d257bac680b72b7fb73b3fe33b541048c575875c38a686e3f46bdac5d"
       },
       "CommonModules/КИИ_СерверMCPИнструментСтруктураОбъекта/КИИ_СерверMCPИнструментСтруктураОбъекта.mdo": {
         "sha256": "a934183ff9555ac6b4e37160f77a6f758ce2797d89373a2793362aed2cccd319",
@@ -994,6 +1018,14 @@
       "CommonModules/КИИ_УдаленныеБазыMCP/КИИ_УдаленныеБазыMCP.mdo": {
         "sha256": "0bfb57bd62d43eac032646c2a3c7540dd01d0ab7648d518982c24cd57886ec2c",
         "normalized_sha256": "c26cd6b9071181b30d7600344a44cd10a1329c685aae6d5c0984a4255e7cd0c3"
+      },
+      "CommonModules/КИИ_ХранениеДиалогов/Module.bsl": {
+        "sha256": "0d2ddb48fff1004c15e823dbea1b1294c3f96cd3538e6b478adeb71175e7ffb3",
+        "normalized_sha256": "0d2ddb48fff1004c15e823dbea1b1294c3f96cd3538e6b478adeb71175e7ffb3"
+      },
+      "CommonModules/КИИ_ХранениеДиалогов/КИИ_ХранениеДиалогов.mdo": {
+        "sha256": "66962ade0be9d06e8c7b076f61389be485ae0cc2976e05c202e32c4b1b7da928",
+        "normalized_sha256": "4e8cdcc9b6cfc68750dd681ccc7b2fb05f2b2a2aa3d9f0a7789615a058db07cd"
       },
       "CommonModules/РегламентныеЗаданияПереопределяемый/Module.bsl": {
         "sha256": "fa7c92b05988352d31a62f36168ca4fa637bd7851c79f0a954031a482e9a6a99",
@@ -1160,20 +1192,20 @@
         "normalized_sha256": "a77166e62147c3a6b8f78ced8b10f67e88b25a78a9f9282a55805c7c6a487937"
       },
       "Catalogs/КИИ_МоделиИИ/Forms/ФормаЭлемента/Module.bsl": {
-        "sha256": "2f1b184704de33824cf070583b234f4d08f760d79e3f44f32c07128efd267733",
-        "normalized_sha256": "2f1b184704de33824cf070583b234f4d08f760d79e3f44f32c07128efd267733"
+        "sha256": "3e7ef2eeae4d7c8e70b29d890e04b02a3055ac60e0d34589837a9e22a4aef9eb",
+        "normalized_sha256": "3e7ef2eeae4d7c8e70b29d890e04b02a3055ac60e0d34589837a9e22a4aef9eb"
       },
       "Catalogs/КИИ_МоделиИИ/Forms/ФормаСписка/Attributes/Список/ExtInfo/ListSettings.dcss": {
         "sha256": "543637ca543d7c131f81c73ad3e2d7c72c8d9c340913a5ec87fd687d59fb3af2",
         "normalized_sha256": "543637ca543d7c131f81c73ad3e2d7c72c8d9c340913a5ec87fd687d59fb3af2"
       },
       "Catalogs/КИИ_БазаЗнаний/Forms/ПроверкаПоиска/Form.form": {
-        "sha256": "eb30d811aa8ad07a30c352139df437127693439ab1e9458640ef7467186bad35",
-        "normalized_sha256": "a8feb63969db03f5c75a5d7823e7aad2785937167c6ccd1a9b8b34eead7e0824"
+        "sha256": "9578dbd15b75eacb6a45b7936ded5c1a21dff9d57019e153f1f36bb9376b8149",
+        "normalized_sha256": "b5bfa5d722d65dbf875d14dbe4461d8d241501122d50fa2efcbe9b23e6d1dcc2"
       },
       "Catalogs/КИИ_БазаЗнаний/Forms/ПроверкаПоиска/Module.bsl": {
-        "sha256": "b84ffa4b1aed01751b875169c031e94e28048627acf84da6a08e32969a2a9456",
-        "normalized_sha256": "b84ffa4b1aed01751b875169c031e94e28048627acf84da6a08e32969a2a9456"
+        "sha256": "253f0079a47cd38320741c5bce033935b2c933c85987e0eab3a51c938b160b51",
+        "normalized_sha256": "253f0079a47cd38320741c5bce033935b2c933c85987e0eab3a51c938b160b51"
       },
       "Catalogs/КИИ_БазаЗнаний/Forms/ФормаСписка/Form.form": {
         "sha256": "3fc2b4758022d356095529404a25078f04f31a41775d9c099c8491f66b09b540",
@@ -1196,8 +1228,8 @@
   "shared_tests": {
     "canonical_files": {
       "Configuration/Configuration.mdo": {
-        "sha256": "9685ed1f33930204cb40a52c5e27b1156fd35b722e7e49ea87258812842851b5",
-        "normalized_sha256": "b4785f7dc67137ea8aa5dbb066edc26169eee9047d94a495994e166a5fb50810"
+        "sha256": "53943ecaa42649f24be4de86fc06236806402db9e0b1b9508810d12c925bf0c5",
+        "normalized_sha256": "d79757074d641d975f964755315f3d21d5371836ed8ea5ca4805cf8a9a39d340"
       },
       "CommonModules/Тесты_КИИ_RAG/Module.bsl": {
         "sha256": "e8709d9cca9e4d52d27c0bdb769016cbd875bf5d9e2ee6d19aec40b5a1537118",
@@ -1232,8 +1264,8 @@
         "normalized_sha256": "a5d27a144c616c8a8ccda870d6caedb3e4a8bd9c3a568f19f83cf96dd8ae55d8"
       },
       "CommonModules/Тесты_КИИ_АгентАнализа/Module.bsl": {
-        "sha256": "31d340537a5502b588cad529fdbe6d1c8991650bdbe7d24b0536b85be7ea035a",
-        "normalized_sha256": "31d340537a5502b588cad529fdbe6d1c8991650bdbe7d24b0536b85be7ea035a"
+        "sha256": "a788618903506b29a58743c18750c2e530bbaceec91f9f5790bd29e6196ab2c5",
+        "normalized_sha256": "a788618903506b29a58743c18750c2e530bbaceec91f9f5790bd29e6196ab2c5"
       },
       "CommonModules/Тесты_КИИ_АгентАнализа/Тесты_КИИ_АгентАнализа.mdo": {
         "sha256": "285bf2874321b5dea9afce85f3ecca44254b1ab11562d8f9593641dbcfb4bdc0",
@@ -1272,16 +1304,16 @@
         "normalized_sha256": "7723e702dc2b8b26e0bbab34981c5a386d983cfeb3b4570eec29009a3de5872f"
       },
       "CommonModules/Тесты_КИИ_КонтрольПерсональныхДанных/Module.bsl": {
-        "sha256": "aead712434cab6e62b21cbd17f09b5b6bbba59d72aca40493f0daa78acce27ff",
-        "normalized_sha256": "aead712434cab6e62b21cbd17f09b5b6bbba59d72aca40493f0daa78acce27ff"
+        "sha256": "1a0eef0ea5fb4bf61b59ee05854a8fdfdcd3d8f3701a4583857c99088c26616d",
+        "normalized_sha256": "1a0eef0ea5fb4bf61b59ee05854a8fdfdcd3d8f3701a4583857c99088c26616d"
       },
       "CommonModules/Тесты_КИИ_КонтрольПерсональныхДанных/Тесты_КИИ_КонтрольПерсональныхДанных.mdo": {
         "sha256": "e836e09c9cbba332d2de3f0968d528f6945be1bc0e63f006069be4fa7308d957",
         "normalized_sha256": "d89941448575119669402433f3843534259bc254e2673b2158fda84a190b611c"
       },
       "CommonModules/Тесты_КИИ_КопированиеКлиент/Module.bsl": {
-        "sha256": "40ffdb063e5db47b41ed776928d545a26147338a16d2b6e13404f09bdc8afe91",
-        "normalized_sha256": "40ffdb063e5db47b41ed776928d545a26147338a16d2b6e13404f09bdc8afe91"
+        "sha256": "eb1c23cd240b3058ee08bbbf921f2a6c2538b39802a9396d5a1f2102e25821af",
+        "normalized_sha256": "eb1c23cd240b3058ee08bbbf921f2a6c2538b39802a9396d5a1f2102e25821af"
       },
       "CommonModules/Тесты_КИИ_КопированиеКлиент/Тесты_КИИ_КопированиеКлиент.mdo": {
         "sha256": "8ade5a47cec5082d3a96ef4db196fb786809c3ee5fc0abf7004e672990aa9dad",
@@ -1408,8 +1440,8 @@
         "normalized_sha256": "59049b85cf7320938b6330701e15556a22489fb8a313ff90e798a5bc42034dbb"
       },
       "CommonModules/Тесты_КИИ_СерверMCPInstruments/Module.bsl": {
-        "sha256": "2e16fe6d86d882bf55b0395ebe1dd4c0fabd9938a2f5c6577566b8c02673b422",
-        "normalized_sha256": "2e16fe6d86d882bf55b0395ebe1dd4c0fabd9938a2f5c6577566b8c02673b422"
+        "sha256": "2e02a584511414778ac225feb59133e2b6606d420ff007227175406f52892371",
+        "normalized_sha256": "2e02a584511414778ac225feb59133e2b6606d420ff007227175406f52892371"
       },
       "CommonModules/Тесты_КИИ_СерверMCPInstruments/Тесты_КИИ_СерверMCPInstruments.mdo": {
         "sha256": "d68376c5d4ed74165a4c1e81a09d5f8285d145912245f2c3632ca61398d72ad4",
@@ -1448,16 +1480,24 @@
         "normalized_sha256": "19ee9ba3577a20f6cc3b5ecdf3eeceafc97b4bad3bb3d30e62377f2fd3804559"
       },
       "CommonModules/Тесты_КИИ_ФормыМоделейВызовСервера/Module.bsl": {
-        "sha256": "7423f3d01e742cbe75582d619cef4700291bcd546bce46621d0bcfd232cd3068",
-        "normalized_sha256": "7423f3d01e742cbe75582d619cef4700291bcd546bce46621d0bcfd232cd3068"
+        "sha256": "6403da9fa7f7ee0f0ab4cb7305f0d98853a929f513492866f25429cac2ebcf64",
+        "normalized_sha256": "6403da9fa7f7ee0f0ab4cb7305f0d98853a929f513492866f25429cac2ebcf64"
       },
       "CommonModules/Тесты_КИИ_ФормыМоделейВызовСервера/Тесты_КИИ_ФормыМоделейВызовСервера.mdo": {
         "sha256": "804117ab95e3f70dad3ab0e8e5f6103f55c4c47b7b37bd89e913368b500473c6",
         "normalized_sha256": "82fd5cfddc3e007469137e80a02c2e9615ac49a12bd9df940d1a9263bb58b304"
       },
+      "CommonModules/Тесты_КИИ_ХранениеДиалогов/Module.bsl": {
+        "sha256": "50e61adfbe0038be2c5910e78c705005136c35a235ab2ef95e770699f4673960",
+        "normalized_sha256": "50e61adfbe0038be2c5910e78c705005136c35a235ab2ef95e770699f4673960"
+      },
+      "CommonModules/Тесты_КИИ_ХранениеДиалогов/Тесты_КИИ_ХранениеДиалогов.mdo": {
+        "sha256": "b798e0523d9b4d5c97025339ca9e1f5daf26c9fda64abcf3a04c942f7c318cbe",
+        "normalized_sha256": "20509fd3bcfb5529ab6d698ab54aa83bbdc858c079587731db8b543f3319d82a"
+      },
       "CommonModules/Тесты_КИИ_ЧатЭкспертаКлиент/Module.bsl": {
-        "sha256": "6cf5c13d686a9de32b8c4a157a9df0816497db2fd4a393dfdcb433253f9bc677",
-        "normalized_sha256": "6cf5c13d686a9de32b8c4a157a9df0816497db2fd4a393dfdcb433253f9bc677"
+        "sha256": "8f0adc1a72097108f09b63a87d10cd039fb6f382e9bdfc4fa0b9158559478e4e",
+        "normalized_sha256": "8f0adc1a72097108f09b63a87d10cd039fb6f382e9bdfc4fa0b9158559478e4e"
       },
       "CommonModules/Тесты_КИИ_ЧатЭкспертаКлиент/Тесты_КИИ_ЧатЭкспертаКлиент.mdo": {
         "sha256": "31829b48ccfd7c893b83af35644827a4b5a6472d6ad4334853879bf1183b9180",
@@ -1481,5 +1521,5 @@
       }
     }
   },
-  "canonical_version": "1.8.9"
+  "canonical_version": "1.9.0"
 }

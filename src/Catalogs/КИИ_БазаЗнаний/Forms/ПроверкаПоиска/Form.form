@@ -1382,6 +1382,18 @@
       </handler>
     </action>
   </formCommands>
+  <parameters>
+    <name>ЭкспертПоиска</name>
+    <valueType>
+      <types>CatalogRef.КИИ_ЭкспертыИИ</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>БазаПоиска</name>
+    <valueType>
+      <types>CatalogRef.КИИ_БазаЗнаний</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

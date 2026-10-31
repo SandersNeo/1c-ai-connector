@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69f8af3a-996b-4a7c-a8c5-2a4ef72b1df5">
+  <producedTypes>
+    <selectionType typeId="4178c519-3893-4614-95b5-7736838b2364" valueTypeId="2aac37be-027a-427f-b63f-3e43257bb368"/>
+    <listType typeId="3ee0d7b1-079c-4c92-9847-13bd4b3039a0" valueTypeId="9b7bd884-96f6-4719-8f11-e2fc8be64d53"/>
+    <managerType typeId="c1363046-8970-4d9c-a060-991cda66527c" valueTypeId="5e57c462-278d-4d8a-8c01-e7e1dff04237"/>
+    <recordSetType typeId="c3276715-e02f-458c-b8c3-63e932faf182" valueTypeId="c3591363-cfc0-4e38-9f84-0a3f0235f326"/>
+    <recordKeyType typeId="7ab8a940-6d18-44f3-a9ae-0ac6e1aa1b56" valueTypeId="d42d4d5d-2efb-4cac-a98a-92fea6c62ac8"/>
+    <recordType typeId="3cfc6c46-fce1-4285-af54-1167fb2a3055" valueTypeId="e39bc277-3a69-43a9-9f50-26aad2f7b09f"/>
+    <recordManagerType typeId="5a2eaa5c-d69a-46a1-bfdf-42df904f11b5" valueTypeId="0a750329-46fa-48a6-997c-3043974b28e6"/>
+  </producedTypes>
+  <name>КИИ_ДиалогиЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохраненные диалоги ИИ</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d717d4d4-99c9-4ebf-8882-ee48fdd5916f">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="a5eb68a1-d8c5-4db1-a5e9-e1a939d34e35">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="7c7e962a-73e0-49e0-aeb0-65e50f384bbc">
+    <name>Эксперт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эксперт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КИИ_ЭкспертыИИ</types>
+    </type>
+  </resources>
+  <resources uuid="549e966b-97eb-4b67-86f6-73905f3f2ad2">
+    <name>Модель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КИИ_МоделиИИ</types>
+    </type>
+  </resources>
+  <resources uuid="e631f38c-d9c1-4846-ab79-fff201a76d0b">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="33ebea10-e61c-4781-9e8c-8eef15b03f0d">
+    <name>Настройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </resources>
+  <resources uuid="878146c8-696f-46f9-9d2a-c1d405601643">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="784b15b2-a05c-4922-9cc5-6f587686ed72">
+    <name>НомерСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>НомерСообщения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="19b6fd4b-5632-4db2-a5db-82cec62c7d17">
+    <name>АктивныйЗапрос</name>
+    <synonym>
+      <key>ru</key>
+      <value>АктивныйЗапрос</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="2903afca-a968-4211-b2d4-e69ca0155734">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="de2512b5-3f01-44cc-a1d0-56f36d2c237a">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="dbe392a4-3838-4781-bbbd-d28a16ab8eda">
+    <name>Изменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменен</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <dimensions uuid="0c258cea-6e90-4248-a625-3a8a71c397d7">
+    <name>Диалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

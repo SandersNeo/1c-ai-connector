@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a2d25b52-4271-4bfb-8b44-7e0006b9d2ab">
+  <producedTypes>
+    <selectionType typeId="a83b49fe-cc1b-428a-be80-755e237d71c3" valueTypeId="af95335b-578a-4cef-9772-2415b46a1ba9"/>
+    <listType typeId="eb00fc56-d008-4b38-a75c-8aab7bf9feb8" valueTypeId="84677bf2-568f-4698-a448-54697ed7a682"/>
+    <managerType typeId="4830e42d-182b-4b4d-a78f-e268d87309c1" valueTypeId="f82fa47b-2a4d-4902-9b47-e5f76d58d667"/>
+    <recordSetType typeId="cd27e7ca-1c2a-4186-be63-d675916d44b5" valueTypeId="4a03d0c3-54bc-46f2-8623-66df924b66e0"/>
+    <recordKeyType typeId="b1173795-db1b-412e-9b54-5c878c9dd276" valueTypeId="73f0404d-d4b7-4aff-8811-c0b8a471d875"/>
+    <recordType typeId="59b21363-26f9-4217-9a39-fe1a74d6a2df" valueTypeId="429becf6-046b-4ec3-8305-1073c1abeb9b"/>
+    <recordManagerType typeId="1d00b73a-cc52-4198-aee4-bd6a96c5dae1" valueTypeId="2f504f37-d6e8-4fda-90bf-a7bc6656c626"/>
+  </producedTypes>
+  <name>КИИ_СообщенияЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения сохраненных диалогов</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cc041d8d-da0e-451a-b3e4-3659ed24e9c1">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="69eed153-0212-402e-9ff9-5e1883993a63">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="86f8c6f5-bdb8-496f-b745-51eb0b030730">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="7a29cf7d-014f-4604-a648-e02e1d2c8543">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="266959f4-c10d-4d01-aaec-86d03488fefb">
+    <name>Сведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </resources>
+  <resources uuid="6f16c29f-8926-4fbd-9c43-8b493b8846ab">
+    <name>Создано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создано</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="f3798b5d-25fc-4277-bd44-a20c79fe0130">
+    <name>ЗапросЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗапросЧата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <dimensions uuid="5a760e31-186b-45b7-b8f0-428a94270dad">
+    <name>Диалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="87d3c82d-db68-45c0-8875-c6913c4b6fe2">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

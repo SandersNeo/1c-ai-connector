@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10c9dff7-3054-44c0-9b2f-1094211ae411">
+  <producedTypes>
+    <selectionType typeId="75d1692d-48fd-4545-8b5c-43339bf7459e" valueTypeId="622e31c6-ce3e-4449-864d-ef31ad1a71d6"/>
+    <listType typeId="43a14cec-abc7-4ec3-8bf7-b7ac57d82f10" valueTypeId="26926aad-f886-48fa-b062-3cb3f9ff5c29"/>
+    <managerType typeId="b4d15591-cbc6-4015-96e4-b9a939455a43" valueTypeId="13a126e4-770d-4c39-9f8f-7f32f277ee27"/>
+    <recordSetType typeId="dc7668bf-1de7-4a39-8dbd-2d14a9d8daa2" valueTypeId="3ac36c95-50cf-4ad7-89ce-3682b923a8d3"/>
+    <recordKeyType typeId="ea886e24-6d1b-470d-b656-b2cfa5625492" valueTypeId="2d73afdd-30ff-4ae3-ad8e-40fbb5450551"/>
+    <recordType typeId="a67f6b1a-d3e5-4d48-bc1c-b33d8472a5ec" valueTypeId="8edd63b7-6a9c-4a72-b05a-1de2355423f4"/>
+    <recordManagerType typeId="a9440201-3694-434e-832a-660d39601d55" valueTypeId="930ca45e-98a3-41fa-85d4-3cf4d2e7abd9"/>
+  </producedTypes>
+  <name>КИИ_ЗапросыЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение запросов диалогов</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="acf0e5cd-43c6-4b01-921a-333a42e29d2e">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="6b82c7b4-c0dd-4957-b89d-6a9997b64c2b">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="9718622d-ef77-4b34-9863-ddf71cd75440">
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </resources>
+  <resources uuid="05f1da7a-8c50-40c0-b889-3b1837623c1c">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </resources>
+  <resources uuid="656fc09d-3ab1-41c9-b569-20f506c69366">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТекстОшибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="e74a63db-e500-4ba5-89db-ec24c396943a">
+    <name>Задание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="9cb5a28e-ab3e-402b-90aa-175aa8c85aa5">
+    <name>Начат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начат</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <resources uuid="82910c04-9fad-42fb-9dfe-98ada9b867cb">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+  </resources>
+  <dimensions uuid="b531af07-a0a8-4fa5-a8f7-38b80b445ad6">
+    <name>Диалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="0ae47900-e099-4d88-87a2-da679ba906d7">
+    <name>ЗапросЧата</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗапросЧата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>

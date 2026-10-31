@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="107e72c2-2541-43ee-bb5b-0f1e172db406">
+  <producedTypes>
+    <selectionType typeId="be2a0f82-af53-4983-8b3a-76b42f090762" valueTypeId="4cf61f1b-e588-465c-b05e-1868c324d574"/>
+    <listType typeId="8ea648c5-58b7-43c4-ad86-18d2b12a2cfc" valueTypeId="2280811c-b577-469a-a9a7-a16314971a29"/>
+    <managerType typeId="8d936287-e51b-4688-8198-7e338c70f52b" valueTypeId="1665c3d3-a67d-4082-9ef9-79217b047373"/>
+    <recordSetType typeId="0f160ba1-4486-49b9-84c9-832ddbe36252" valueTypeId="04d80d96-905d-4df5-9960-d28a270931d9"/>
+    <recordKeyType typeId="dbeeef3f-faa3-474c-9ec7-456d211ec830" valueTypeId="a4af3e58-9d83-43bc-b5ee-4f0181a7eb3c"/>
+    <recordType typeId="900d7043-d9b4-428a-a3f6-b742317139a8" valueTypeId="760ec229-9401-49bb-a3bc-d6575db89b31"/>
+    <recordManagerType typeId="61c8aa70-27ae-4a2c-9530-1a97c362971c" valueTypeId="d294687f-4eb3-4500-a984-bf63a563fe43"/>
+  </producedTypes>
+  <name>КИИ_МатериалыЧата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы сохраненных диалогов</value>
+  </synonym>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7124f20d-ef7f-4217-a742-9c30e996a4f4">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="19f657c5-a077-4245-b443-44cc62d91871">
+    <name>Сообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="d621edf9-e2af-4e05-be10-40745ae0efc6">
+    <name>Вид</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="299f0968-c84a-4c29-a540-d1bd7c288663">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="2eaf5478-f157-4b5e-992d-d2be86e476a1">
+    <name>MIME</name>
+    <synonym>
+      <key>ru</key>
+      <value>MIME</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="76bcdd1a-1ea0-4ab1-ac11-9e21c982fcb6">
+    <name>РазмерБайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>РазмерБайт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+  </resources>
+  <resources uuid="0ea172dc-a086-44f5-9127-52725a0d0525">
+    <name>Содержимое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержимое</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+  </resources>
+  <resources uuid="155c5d4b-f06f-4422-a1dc-7d03649ca844">
+    <name>ИсходныйДиалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИсходныйДиалог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="fe42ccae-3e2c-4634-9c6f-543aacb473ee">
+    <name>ИсходноеСообщение</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИсходноеСообщение</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="1d5acee7-f71d-4ade-a7b9-ecc79ef5965e">
+    <name>ИсходныйМатериал</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИсходныйМатериал</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </resources>
+  <resources uuid="338cac1c-294d-4b43-95ae-5f365bfe58d6">
+    <name>Отправлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+  </resources>
+  <dimensions uuid="51586854-503a-450f-8623-2dbf73f70f98">
+    <name>Диалог</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+  <dimensions uuid="9012d2d9-73ff-4ebb-9f60-622c0657f9d0">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+  </dimensions>
+</mdclass:InformationRegister>
