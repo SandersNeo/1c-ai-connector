@@ -14,8 +14,8 @@
 
 [![1С:Предприятие](https://img.shields.io/badge/1С-8.3-blue)](https://1c.ru)
 
-[![Версия](https://img.shields.io/badge/версия-1.9.0-green)](https://github.com/andromanpro/1c-ai-connector/releases)
-[![Тесты](https://img.shields.io/badge/YAxUnit-1131_main_tests-brightgreen)](#-качество-кода)
+[![Версия](https://img.shields.io/badge/версия-1.9.1-green)](https://github.com/andromanpro/1c-ai-connector/releases)
+[![Тесты](https://img.shields.io/badge/YAxUnit-1147_main_tests-brightgreen)](#-качество-кода)
 
 
 <a href="https://infostart.ru/1c/articles/2585691/">
@@ -31,6 +31,16 @@
 
 
 [О проекте](#about) · [Установка](#install) · [Быстрый старт](#quick-start) · [Документация](#documentation) · [Качество кода](#quality) · [История выпусков](docs/releases/README.md)
+
+## Выпуск 1.9.1
+
+Компактные команды чата со штатными картинками 1С и подсказками. В «Моих диалогах»
+можно удалить выделенные беседы одним подтверждением: список обновляется сразу,
+открытые вкладки закрываются. При отказе сохраняются причина и диагностика 1С.
+
+1147/1147 основных тестов, 102 ролевых выполнения, настоящая форма, чистая
+вендорская БСП и Sonar без открытых замечаний.
+[Изменения и обновление](RELEASE_NOTES_1.9.1.md).
 
 ## Выпуск 1.9.0
 

@@ -208,7 +208,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.МоиДиалоги</commandName>
-            <representation>Auto</representation>
+            <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -234,8 +234,9 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.Очистить</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
+            <representation>Picture</representation>
+            <width>4</width>
+            <maxWidth>4</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
@@ -260,8 +261,9 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ОбновитьБеседу</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
+            <representation>Picture</representation>
+            <width>4</width>
+            <maxWidth>4</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
@@ -802,8 +804,9 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.ПросмотретьВложениеКоманда</commandName>
-                <representation>Auto</representation>
-                <autoMaxWidth>true</autoMaxWidth>
+                <representation>Picture</representation>
+                <width>4</width>
+                <maxWidth>4</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
@@ -827,7 +830,6 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.ОчиститьВложения</commandName>
-                <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
@@ -852,8 +854,9 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.СохранитьВложениеКоманда</commandName>
-                <representation>Auto</representation>
-                <autoMaxWidth>true</autoMaxWidth>
+                <representation>Picture</representation>
+                <width>4</width>
+                <maxWidth>4</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
@@ -877,7 +880,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.ПовторноИспользоватьМатериал</commandName>
-                <representation>Auto</representation>
+                <representation>PictureAndText</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
@@ -902,7 +905,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <commandName>Form.Command.ОбновитьЦитату</commandName>
-                <representation>Auto</representation>
+                <representation>PictureAndText</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <placementArea>UserCmds</placementArea>
@@ -1065,7 +1068,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.Отправить</commandName>
-            <representation>Auto</representation>
+            <representation>PictureAndText</representation>
             <defaultButton>true</defaultButton>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1092,8 +1095,9 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ПрикрепитьФайлы</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
+            <representation>Picture</representation>
+            <width>4</width>
+            <maxWidth>4</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
@@ -1118,7 +1122,6 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.КонтекстДругойБеседы</commandName>
-            <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -1144,7 +1147,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ПоказатьМатериалы</commandName>
-            <representation>Auto</representation>
+            <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -1409,7 +1412,6 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.СброситьКонтекст</commandName>
-            <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -1916,8 +1918,9 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ОбновитьИсточники</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
+          <representation>Picture</representation>
+          <width>4</width>
+          <maxWidth>4</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
@@ -2044,7 +2047,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ОбновитьПредпросмотр</commandName>
-            <representation>Auto</representation>
+            <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -2070,7 +2073,7 @@
             </extendedTooltip>
             <type>UsualButton</type>
             <commandName>Form.Command.ПодобратьЗнания</commandName>
-            <representation>Auto</representation>
+            <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -2693,8 +2696,9 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ОбновитьЖурналДиалога</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
+          <representation>Picture</representation>
+          <width>4</width>
+          <maxWidth>4</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
@@ -3410,7 +3414,6 @@
           </extendedTooltip>
           <type>UsualButton</type>
           <commandName>Form.Command.ПоказатьКонтекстРаунда</commandName>
-          <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
@@ -3556,6 +3559,10 @@
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытииДиалога</name>
+  </handlers>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
   </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
@@ -4396,7 +4403,7 @@
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Отправить вопрос — Ctrl+Enter. Запрос продолжится после закрытия вкладки.</value>
+      <value>Отправить вопрос - Ctrl+Enter. Запрос продолжится после закрытия вкладки.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -4415,6 +4422,10 @@
       <value>Новый диалог</value>
     </title>
     <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть новую беседу. Текущая история и черновик сохранятся.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4434,7 +4445,7 @@
     <id>38</id>
     <toolTip>
       <key>ru</key>
-      <value>Прикрепить файлы к черновику этой беседы.</value>
+      <value>Прикрепить файлы к вопросу в этой беседе.</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -4452,6 +4463,10 @@
       <value>Убрать исходящие вложения</value>
     </title>
     <id>39</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Убрать вложения из следующего вопроса. Сохраненные материалы беседы останутся.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4468,6 +4483,10 @@
       <value>Сохранить файл</value>
     </title>
     <id>104</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохранить выбранный файл на компьютер.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4484,6 +4503,10 @@
       <value>Просмотреть</value>
     </title>
     <id>105</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Просмотреть выбранный файл.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4500,6 +4523,10 @@
       <value>Обновить список баз</value>
     </title>
     <id>182</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить список доступных баз для инструментов.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4516,6 +4543,10 @@
       <value>Обновить просмотр</value>
     </title>
     <id>195</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Подготовить просмотр следующего запроса. Сначала введите вопрос на вкладке «Диалог».</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4532,6 +4563,10 @@
       <value>Подобрать знания</value>
     </title>
     <id>196</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Подобрать знания для вопроса через модель эмбеддингов.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4548,6 +4583,10 @@
       <value>Исходные настройки контекста</value>
     </title>
     <id>197</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Восстановить исходные настройки контекста. История и материалы беседы сохранятся.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4564,6 +4603,10 @@
       <value>Обновить журнал</value>
     </title>
     <id>198</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить журнал запросов этой беседы.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4580,6 +4623,10 @@
       <value>Показать контекст раунда</value>
     </title>
     <id>199</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать сохраненный запрос и ответ выбранного раунда.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4596,6 +4643,10 @@
       <value>Мои диалоги</value>
     </title>
     <id>322</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Открыть список сохраненных бесед.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4612,6 +4663,10 @@
       <value>Из другого диалога</value>
     </title>
     <id>326</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбрать сообщения или файлы из другой своей беседы.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4628,6 +4683,10 @@
       <value>Материалы</value>
     </title>
     <id>328</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать или скрыть материалы этой беседы.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4644,6 +4703,10 @@
       <value>В следующий вопрос</value>
     </title>
     <id>330</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавить выбранный сохраненный материал к следующему вопросу.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4660,6 +4723,10 @@
       <value>Обновить цитату</value>
     </title>
     <id>332</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузить актуальный текст выбранной цитаты из исходной беседы.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -4676,6 +4743,10 @@
       <value>Обновить беседу</value>
     </title>
     <id>334</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить историю, материалы и состояние этой беседы.</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
